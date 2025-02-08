@@ -1,0 +1,6 @@
+# Use separate virtual environments
+venv/
+virtualenv/
+
+# Large data files
+Prediction_Model/Data/

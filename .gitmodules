@@ -1,0 +1,3 @@
+[submodule "Prediction_Model/NBA_API"]
+	path = Prediction_Model/NBA_API
+	url = https://github.com/swar/nba_api.git

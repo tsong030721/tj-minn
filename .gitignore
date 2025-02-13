@@ -2,5 +2,5 @@
 venv/
 virtualenv/
 
-# Large data files
-Prediction_Model/Data/
+# Cache files
+__pycache__/

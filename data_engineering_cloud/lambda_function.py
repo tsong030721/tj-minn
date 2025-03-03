@@ -8,6 +8,27 @@ s3 = boto3.client("s3")
 #sportradar API key
 key = os.environ["SPORTRADAR_API_KEY"]
 
+def get_teams():
+    #API tripping so I had to hard code this bit
+    NBA_teams=['76ers','Bucks','Bulls','Cavaliers', 'Celtics', 'Clippers','Grizzlies','Hawks', 'Heat', 'Hornets',
+               'Jazz', 'Kings', 'Kings', 'Knicks', 'Lakers',
+               'Magic', 'Mavericks', 'Nets', 'Nuggets', 'Pelicans', 'Pistons','Raptors'
+               ,'Rockets', 'Spurs', 'Suns', 'Thunder', 'Timberwolves', 'Trail Blazers', 'Warriors',  'Wizards']
+    teamid_list = []
+    url = f"https://api.sportradar.com/nba/trial/v8/en/league/teams.json?api_key={key}"
+    headers = {"accept": "application/json"}
+    response = requests.get(url, headers=headers)
+    res_json = response.json()
+    d = res_json["teams"]
+    for team_dict in d:
+        if team_dict["name"] in NBA_teams:
+            #append all ids
+            teamid_list.append(team_dict["id"])
+    return teamid_list
+teamids = get_teams()
+        
+
+
 #This imports for a specific team.
 def import_split(team_id):
     url_schedule = f"https://api.sportradar.com/nba/trial/v8/en/seasons/2023/REG/teams/{team_id}/splits/schedule.json?api_key={key}"
@@ -15,27 +36,32 @@ def import_split(team_id):
     response = requests.get(url_schedule, headers=headers)
     return response.json()
 
-res = import_split(team_id = "583ec825-fb46-11e1-82cb-f4ce4684ea4c")
 
-def extract_player(res, player_id):
-    players = res["players"]
-    for player in players:
-        #search player
-        if player["id"] == player_id:
-            #This imports splits for each player
-            player_splits = player["splits"]
+#returns a dictionary of a given team split json and gives a dictionary of each player's last 10 game
+#split. For instance, we give it a json file of GSW split, it will create a dictionary of 
+# curry's id: his stats in jsonn file.
+def extract_player_last_10(team_split):
+    #collects json files
+    collection = {}
+    #access players from json from each team's json
+    players = team_split["players"]
     
-    for split in player_splits:
-        if split["category"] == "last_10":
-            last_10 = split["total"]
-      
-    return last_10
-data = extract_player(res, player_id= "8ec91366-faea-4196-bbfd-b8fab7434795")
-print(data)
+    for player in players:
+        #access each player's splits
+        player_splits = player["splits"]
+        for split in player_splits:
+            if split["category"] == "last_10":
+                last_10 = split["total"]
+                collection[player["id"]] = last_10
+    return collection
 
-def store_data_in_s3(data):
+# data = extract_player_last_10(res_for_team, player_id= "8ec91366-faea-4196-bbfd-b8fab7434795")
+
+
+def store_data_in_s3(data, team_id, player_id):
     bucket_name = os.environ["S3BUCKET"]
-    file_name = "nba_test_curry.json"
+    #player id
+    file_name = f"last_10_team_{team_id}_player_{player_id}.json"
 
     s3.put_object(
         Bucket=bucket_name,
@@ -45,13 +71,23 @@ def store_data_in_s3(data):
     )
 
     print(f"Cleaned data saved to {bucket_name}/{file_name}")
+
 def lambda_handler(event, context):
     """Main AWS Lambda function handler."""
-    nba_data = extract_player(res, player_id= "8ec91366-faea-4196-bbfd-b8fab7434795")
-    if nba_data:
-        cleaned_data = nba_data  # Extract relevant fields
-        store_data_in_s3(cleaned_data)  # Upload to S3
-        return {"status": "success", "message": "Cleaned data stored in S3"}
+    teamids = get_teams()
+    count = 0
+    for team_id in teamids:
+        res_for_team = import_split(team_id)
+        nba_data = extract_player_last_10(res_for_team)
+        
+        for player_id in nba_data:
+            data = nba_data[player_id]
+            if data:
+                cleaned_data = data  # Extract relevant fields
+                store_data_in_s3(cleaned_data, team_id, player_id)  # Upload to S3
+                count +=1
+    if count>0: 
+        return {"status": "success", "message": f"Cleaned data ({count}) stored in S3"}
     else:
         return {"status": "error", "message": "Failed to fetch NBA data"}
 

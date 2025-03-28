@@ -1,0 +1,217 @@
+[2025-03-27T17:38:49.630+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:38:49.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:38:49.636+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:38:49.635+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:38:49.682+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:38:49.907+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:38:49.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:38:49.958+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:38:49.957+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:38:50.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.377 seconds
+[2025-03-27T17:39:20.498+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:20.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:39:20.505+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:20.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:20.538+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:20.567+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:20.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:39:20.600+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:20.600+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:39:20.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.138 seconds
+[2025-03-27T17:39:50.812+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:50.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:39:50.817+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:50.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:50.840+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:39:50.863+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:50.862+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:39:50.887+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:39:50.887+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:39:50.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.109 seconds
+[2025-03-27T17:40:21.675+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:21.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:40:21.679+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:21.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:21.696+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:21.719+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:21.719+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:40:21.749+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:21.749+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:40:21.771+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.102 seconds
+[2025-03-27T17:40:52.513+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:52.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:40:52.517+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:52.516+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:52.535+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:40:52.556+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:52.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:40:52.584+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:40:52.584+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:40:52.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.099 seconds
+[2025-03-27T17:41:23.061+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:23.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:41:23.064+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:23.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:23.080+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:23.101+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:23.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:41:23.125+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:23.125+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:41:23.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.085 seconds
+[2025-03-27T17:41:53.710+0000] {processor.py:186} INFO - Started process (PID=457) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:53.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:41:53.714+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:53.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:53.730+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:41:53.748+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:53.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:41:53.769+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:41:53.769+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:41:53.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.083 seconds
+[2025-03-27T17:42:24.604+0000] {processor.py:186} INFO - Started process (PID=521) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:24.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:42:24.608+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:24.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:24.623+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:24.639+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:24.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:42:24.658+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:24.658+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:42:24.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.073 seconds
+[2025-03-27T17:42:55.337+0000] {processor.py:186} INFO - Started process (PID=585) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:55.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:42:55.341+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:55.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:55.358+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:42:55.383+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:55.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:42:55.405+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:42:55.405+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:42:55.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.092 seconds
+[2025-03-27T17:43:03.310+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.311+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:43:03.313+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.339+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.359+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.358+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:43:03.383+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.382+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:43:03.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.099 seconds
+[2025-03-27T17:43:03.804+0000] {processor.py:186} INFO - Started process (PID=609) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:43:03.807+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.832+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:03.853+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:43:03.877+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:03.877+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:43:03.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.098 seconds
+[2025-03-27T17:43:04.880+0000] {processor.py:186} INFO - Started process (PID=616) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:04.881+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:43:04.884+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:04.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:04.905+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:04.925+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:04.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:43:04.953+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:04.953+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:43:04.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.100 seconds
+[2025-03-27T17:43:36.103+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:36.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:43:36.106+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:36.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:36.125+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:43:36.145+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:36.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:43:36.172+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:43:36.171+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:43:36.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.098 seconds
+[2025-03-27T17:44:06.896+0000] {processor.py:186} INFO - Started process (PID=749) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:06.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:44:06.900+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:06.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:06.916+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:06.934+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:06.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:44:06.955+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:06.954+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:44:06.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.081 seconds
+[2025-03-27T17:44:37.045+0000] {processor.py:186} INFO - Started process (PID=813) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:37.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:44:37.048+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:37.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:37.068+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:44:37.089+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:37.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:44:37.112+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:44:37.112+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:44:37.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.095 seconds
+[2025-03-27T17:45:07.590+0000] {processor.py:186} INFO - Started process (PID=878) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:07.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:45:07.594+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:07.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:07.615+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:07.638+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:07.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:45:07.672+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:07.671+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:45:07.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.118 seconds
+[2025-03-27T17:45:38.811+0000] {processor.py:186} INFO - Started process (PID=940) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:38.812+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:45:38.815+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:38.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:38.832+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:45:38.851+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:38.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:45:38.876+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:45:38.876+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:45:38.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.087 seconds
+[2025-03-27T17:46:08.969+0000] {processor.py:186} INFO - Started process (PID=999) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:08.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:46:08.972+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:08.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:08.995+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:09.017+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:09.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:46:09.043+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:09.042+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:46:09.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.102 seconds
+[2025-03-27T17:46:39.695+0000] {processor.py:186} INFO - Started process (PID=1063) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:39.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:46:39.699+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:39.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:39.719+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:46:39.739+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:39.738+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:46:39.761+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:46:39.761+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:46:39.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.090 seconds
+[2025-03-27T17:47:10.443+0000] {processor.py:186} INFO - Started process (PID=1127) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:10.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:47:10.446+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:10.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:10.460+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:10.477+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:10.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:47:10.504+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:10.504+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:47:10.523+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.085 seconds
+[2025-03-27T17:47:40.652+0000] {processor.py:186} INFO - Started process (PID=1191) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:40.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:47:40.655+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:40.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:40.669+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:47:40.685+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:40.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:47:40.706+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:47:40.706+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:47:40.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.074 seconds
+[2025-03-27T17:48:10.908+0000] {processor.py:186} INFO - Started process (PID=1255) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:10.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:48:10.914+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:10.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:10.938+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:10.971+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:10.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:48:11.006+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:11.006+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:48:11.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.132 seconds
+[2025-03-27T17:48:41.980+0000] {processor.py:186} INFO - Started process (PID=1319) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:41.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:48:41.985+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:41.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:42.005+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:48:42.029+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:42.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:48:42.055+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:48:42.055+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:48:42.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.107 seconds
+[2025-03-27T17:49:12.231+0000] {processor.py:186} INFO - Started process (PID=1383) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:12.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:49:12.235+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:12.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:12.250+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:12.270+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:12.270+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:49:12.293+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:12.293+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:49:12.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.085 seconds
+[2025-03-27T17:49:42.999+0000] {processor.py:186} INFO - Started process (PID=1447) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:43.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:49:43.002+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:43.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:43.022+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:49:43.040+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:43.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:49:43.061+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:49:43.060+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:49:43.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.083 seconds
+[2025-03-27T17:50:13.768+0000] {processor.py:186} INFO - Started process (PID=1517) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:13.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:50:13.772+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:13.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:13.791+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:13.813+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:13.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:50:13.838+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:13.837+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:50:13.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.098 seconds
+[2025-03-27T17:50:44.413+0000] {processor.py:186} INFO - Started process (PID=1581) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:44.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:50:44.418+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:44.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:44.452+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:50:44.485+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:44.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:50:44.535+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:50:44.535+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:50:44.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.167 seconds
+[2025-03-27T17:51:14.827+0000] {processor.py:186} INFO - Started process (PID=1645) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:14.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:51:14.835+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:14.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:14.863+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:14.892+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:14.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:51:14.934+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:14.933+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:51:14.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.153 seconds
+[2025-03-27T17:51:45.087+0000] {processor.py:186} INFO - Started process (PID=1709) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:45.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:51:45.091+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:45.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:45.110+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:51:45.131+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:45.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:51:45.157+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:51:45.157+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:51:45.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.098 seconds
+[2025-03-27T17:52:15.992+0000] {processor.py:186} INFO - Started process (PID=1773) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:15.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:52:15.998+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:15.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:16.020+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:16.046+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:16.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:52:16.074+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:16.074+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:52:16.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.114 seconds
+[2025-03-27T17:52:46.191+0000] {processor.py:186} INFO - Started process (PID=1837) to work on /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:46.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline.py for tasks to queue
+[2025-03-27T17:52:46.194+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:46.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:46.213+0000] {processor.py:925} INFO - DAG(s) 'nba_data_pipeline' retrieved from /opt/airflow/dags/pipeline.py
+[2025-03-27T17:52:46.236+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:46.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-27T17:52:46.264+0000] {logging_mixin.py:190} INFO - [2025-03-27T17:52:46.264+0000] {dag.py:4180} INFO - Setting next_dagrun for nba_data_pipeline to 2025-03-26 12:00:00+00:00, run_after=2025-03-27 12:00:00+00:00
+[2025-03-27T17:52:46.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline.py took 0.096 seconds
